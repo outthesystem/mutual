@@ -80,6 +80,77 @@
             </div>
           </div>
         </div>
+        <div class="row">
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/radiadores.png">
+            </div>
+            <div class="card-reveal">
+            </div>
+            <div class="card-action">
+              <a href="#radiadores" class="waves-effect waves-light btn modal-trigger">Tomar Beneficio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/turismo.png">
+            </div>
+            <div class="card-content">
+              <a href="files/turismo.pdf" target="_blank">Ver Ofertas Turísticas</a>
+            </div>
+            <div class="card-action">
+              <a href="#turismo" class="waves-effect waves-light btn modal-trigger" >Tomar Beneficio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/seguros.png">
+            </div>
+            <div class="card-reveal">
+            </div>
+            <div class="card-action">
+              <a href="#seguros" class="waves-effect waves-light btn modal-trigger" >Tomar Beneficio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/baterias.png">
+            </div>
+            <div class="card-content">
+              BATERÍA HI-MART 12X55
+              FABRICADA Y GARANTIZADA POR CHAMPION!
+
+              300 AMP AL ARRANQUE
+
+              Capacidad de la batería: 55 Ah
+
+              Voltaje: 12V
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn modal-trigger" href="#baterias">Tomar Beneficio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/cubiertas.png">
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn modal-trigger" href="#cubiertas">Tomar Beneficio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
         <div class="col s12">
           <div class="card white">
             <div class="card-content">
@@ -110,15 +181,216 @@
   </a>
 </div>
 
-  <div id="message" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4>Contact</h4>
-      <p>coming soon...</p>
-    </div>
-    <div class="modal-footer">
-      <a href="" class="modal-action modal-close waves-effect btn-flat">close</a>
-    </div>
-  </div>
+<!-- Modal Structure -->
+<div id="radiadores" class="modal">
+<div class="modal-content">
+  <h4>Tomar Beneficio - Radiadores  </h4>
+  <br>
+        <div class="input-field col s6">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="name" type="text" class="validate">
+          <label for="name">Nombre y Apellido</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="phone" type="text" class="validate">
+          <label for="phone">Telefono</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="model" type="text" class="validate">
+          <label for="model">Modelo del Auto</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="year" type="text" class="validate">
+          <label for="year">Año</label>
+        </div>
+        <p>
+     <label>
+       <input type="checkbox" id="air" value="Si"/>
+       <span>Aire Acondicionado</span>
+     </label>
+   </p>
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="radiadores()">Enviar</a>
+</div>
+</div>
+
+<div id="turismo" class="modal">
+<div class="modal-content">
+  <h4>Tomar Beneficio - Turismo  </h4>
+  <br>
+        <div class="input-field col s6">
+          <input id="emailt" type="email" class="validate">
+          <label for="emailt">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="namet" type="text" class="validate">
+          <label for="namet">Nombre y Apellido</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="phonet" type="text" class="validate">
+          <label for="phonet">Telefono</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="package" type="text" class="validate">
+          <label for="package">Paquete que esta interesado</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="date_ini" type="date" class="validate">
+          <label for="date_ini">Fecha de ida</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="date_end" type="date" class="validate">
+          <label for="date_end">Fecha de vuelta</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="adultq" type="number" class="validate">
+          <label for="adultq">Cantidad de adultos</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="childq" type="number" class="validate">
+          <label for="childq">Cantidad de menores</label>
+        </div>
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="turismo()">Enviar</a>
+</div>
+</div>
+
+<div id="seguros" class="modal">
+<div class="modal-content">
+  <h4>Tomar Beneficio - Seguros  </h4>
+  <br>
+        <div class="input-field col s6">
+          <input id="emails" type="email" class="validate">
+          <label for="emails">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="names" type="text" class="validate">
+          <label for="names">Nombre y Apellido</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="phones" type="text" class="validate">
+          <label for="phones">Telefono</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="models" type="text" class="validate">
+          <label for="models">Modelo de Auto</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="years" type="text" class="validate">
+          <label for="years">Año</label>
+        </div>
+        <label>
+          <input type="checkbox" id="gnc" value="Si"/>
+          <span>GNC</span>
+        </label>
+        <br>
+
+        <div class="input-field col s6">
+          <input id="cover" placeholder="responsabilidad civil,terceros, tercero completo, todo riesgo" type="text" class="validate">
+          <label for="cover">Tipo de Cobertura</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="caruse" placeholder="remis o particular" type="text" class="validate">
+          <label for="caruse">Uso del Auto</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="doubts" type="text" class="validate">
+          <label for="doubts">Dudas sobre Cobertura</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="chasis" type="text" class="validate">
+          <label for="chasis">Chasis</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="nengine" type="text" class="validate">
+          <label for="nengine">Numero de Motor</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="userd" placeholder="DNI - Direccion - Localidad" type="text" class="validate">
+          <label for="userd">Datos del Asegurado</label>
+        </div>
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="seguros()">Enviar</a>
+</div>
+</div>
+
+<div id="baterias" class="modal">
+<div class="modal-content">
+  <h4>Tomar Beneficio - Baterias  </h4>
+  <br>
+        <div class="input-field col s6">
+          <input id="emailb" type="email" class="validate">
+          <label for="emailb">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="nameb" type="text" class="validate">
+          <label for="nameb">Nombre y Apellido</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="phoneb" type="text" class="validate">
+          <label for="phoneb">Telefono</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="modelb" type="text" class="validate">
+          <label for="modelb">Modelo del Auto</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="batterysize" type="text" class="validate">
+          <label for="batterysize">Tamaño de la Bateria</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="quota" type="number" class="validate">
+          <label for="quota">Cantidad de Cuotas</label>
+          <span class="helper-text" data-error="wrong" data-success="right">
+            1x 2200. 2x 1100. 3x 735. 4 x 550
+          </span>
+        </div>
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="baterias()">Enviar</a>
+</div>
+</div>
+
+<div id="cubiertas" class="modal">
+<div class="modal-content">
+  <h4>Tomar Beneficio - Cubiertas  </h4>
+  <br>
+        <div class="input-field col s6">
+          <input id="emailc" type="email" class="validate">
+          <label for="emailc">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="namec" type="text" class="validate">
+          <label for="namec">Nombre y Apellido</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="phonec" type="text" class="validate">
+          <label for="phonec">Telefono</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="modelc" type="text" class="validate">
+          <label for="modelc">Modelo del Auto</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="rolled" type="text" class="validate">
+            <label for="rolled">Rodado de Cubierta</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="quotac" type="number" class="validate">
+          <label for="quotac">Cantidad de Cuotas</label>
+        </div>
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="cubiertas()">Enviar</a>
+</div>
+</div>
+
 
     <footer class="page-footer" style="background-color:#E53935">
     <div class="footer-copyright black">
@@ -138,12 +410,112 @@
   });
 
   $(document).ready(function(){
+  $('.modal').modal();
+});
+
+  $(document).ready(function(){
   $('.fixed-action-btn').floatingActionButton({
     open: '1',
     direction: 'left',
   });
-  $('.fixed-action-btn').open();
 });
+</script>
+
+<script type="text/javascript">
+function radiadores() {
+  $.ajax(
+  {
+    url: "sendEmail.php",
+    data: "function=contact&email="+ $("#email").val() +"&name="+ $("#name").val() +"&phone="+ $("#phone").val() +"&model="+ $("#model").val() +"&year="+ $("#year").val() +"&air="+ $("#air").val() +"",
+    beforeSend: function () {
+          M.toast({html: 'Enviando tu mensaje...'})
+        },
+        success: function(data) {
+          M.Toast.dismissAll();
+        M.toast({html: 'Se ha enviado tu mensaje correctamente, gracias!'})
+      },
+      error: function() {
+        alert('There was some error performing the AJAX call!');
+      }
+   }
+  );
+}
+
+function turismo() {
+  $.ajax(
+  {
+    url: "sendEmail.php",
+    data: "function=turismo&emailt="+ $("#emailt").val() +"&namet="+ $("#namet").val() +"&phonet="+ $("#phonet").val() +"&package="+ $("#package").val() +"&date_ini="+ $("#date_ini").val() +"&date_end="+ $("#date_end").val() +"&adultq="+ $("#adultq").val() +"&childq="+ $("#childq").val() +"",
+    beforeSend: function () {
+          M.toast({html: 'Enviando tu mensaje...'})
+      },
+      success: function(data) {
+        M.Toast.dismissAll();
+        M.toast({html: 'Se ha enviado tu mensaje correctamente, gracias!'})
+      },
+      error: function() {
+        alert('There was some error performing the AJAX call!');
+      }
+   }
+  );
+}
+
+function seguros() {
+  $.ajax(
+  {
+    url: "sendEmail.php",
+    data: "function=seguro&emails="+ $("#emails").val() +"&names="+ $("#names").val() +"&phones="+ $("#phones").val() +"&models="+ $("#models").val() +"&years="+ $("#years").val() +"&cover="+ $("#cover").val() +"&gnc="+ $("#gnc").val() +"&caruse="+ $("#caruse").val() +"&doubts="+ $("#doubts").val() +"&chasis="+ $("#chasis").val() +"&nengine="+ $("#nengine").val() +"&userd="+ $("#userd").val() +"",
+    beforeSend: function () {
+          M.toast({html: 'Enviando tu mensaje...'})
+      },
+      success: function(data) {
+        M.Toast.dismissAll();
+        M.toast({html: 'Se ha enviado tu mensaje correctamente, gracias!'})
+      },
+      error: function() {
+        alert('There was some error performing the AJAX call!');
+      }
+   }
+  );
+}
+
+function baterias() {
+  $.ajax(
+  {
+    url: "sendEmail.php",
+    data: "function=baterias&emailb="+ $("#emailb").val() +"&nameb="+ $("#nameb").val() +"&phoneb="+ $("#phoneb").val() +"&modelb="+ $("#modelb").val() +"&batterysize="+ $("#batterysize").val() +"&quota="+ $("#quota").val() +"",
+    beforeSend: function () {
+          M.toast({html: 'Enviando tu mensaje...'})
+        },
+        success: function(data) {
+          M.Toast.dismissAll();
+        M.toast({html: 'Se ha enviado tu mensaje correctamente, gracias!'})
+      },
+      error: function() {
+        alert('There was some error performing the AJAX call!');
+      }
+   }
+  );
+}
+
+function cubiertas() {
+  $.ajax(
+  {
+    url: "sendEmail.php",
+    data: "function=cubiertas&emailc="+ $("#emailc").val() +"&namec="+ $("#namec").val() +"&phonec="+ $("#phonec").val() +"&modelc="+ $("#modelc").val() +"&rolled="+ $("#rolled").val() +"&quotac="+ $("#quotac").val() +"",
+    beforeSend: function () {
+          M.toast({html: 'Enviando tu mensaje...'})
+        },
+        success: function(data) {
+          M.Toast.dismissAll();
+        M.toast({html: 'Se ha enviado tu mensaje correctamente, gracias!'})
+      },
+      error: function() {
+        alert('There was some error performing the AJAX call!');
+      }
+   }
+  );
+}
 </script>
 
     <script  src="js/index.js"></script>
